@@ -344,7 +344,10 @@ img {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(255, 255, 255);
+  
 }
+
+
 
 .card:hover{
 box-shadow: rgba(255, 255, 255, 0.568) 0px 5px 15px;
@@ -410,7 +413,7 @@ transform: scale(1.1);
 .pr-view a:hover{
   border: none;
   background: rgb(16, 136, 235);
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
 .pr-view a i{
@@ -420,22 +423,22 @@ transform: scale(1.1);
 
 .project_icon{
 font-size: 2rem;
-opacity: 0;
-transition: opacity 0.5s ease;
+/* opacity: 0; */
+/* transition: opacity 0.5s ease; */
 }
 
-.card:hover  .project_icon{
+/* .card:hover  .project_icon{
   opacity: 1;
-}
+} */
 
-.stack{
+/* .stack{
 opacity: 0;
 transition: opacity 0.5s ease;
 }
 
 .card:hover .stack{
 opacity: 1;
-}
+} */
 
 /* ===== CONTACT =====*/
 .contact__input {  
